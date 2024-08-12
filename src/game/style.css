@@ -1,0 +1,35 @@
+.status {
+    margin-bottom: 10px;
+    font: 24px bold;
+}
+
+.square {
+    width: 64px;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font: 32px bold;
+    background-color: white;
+}
+
+.board-row {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.game {
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+}
+
+.game-board {
+    margin: 50px;
+}
+
+.game-info {
+    font-weight: bold;
+    margin-left: 30px;
+}

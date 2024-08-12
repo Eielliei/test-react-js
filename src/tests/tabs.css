@@ -1,0 +1,20 @@
+.tab-buttons button {
+	padding: 10px 50px;
+    background-color: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px 0px 2px 0px;
+	cursor: pointer;
+}
+
+.active-tab {
+	color: blue;
+	font-weight: bold;
+    border-width: 2px 2px 0px 2px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.inactive-tab {
+	color: gray;
+}

@@ -1,0 +1,26 @@
+.text-blue {
+    color: blue;
+}
+
+.navbar {
+    border: 10px double black;
+    margin: 5px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a {
+    margin: 5px;
+    border: 1px solid black;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+
+.activeLink {
+    font-weight: bold;
+    background-color: skyblue;
+}
