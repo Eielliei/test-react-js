@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import MyPage from "./sample/MyPage";
 import MyTest from "./tests/MyTest";
@@ -17,7 +17,7 @@ import CalcTime from "./tests/CalcTime";
 
 function App() {
 	return (
-		<Router>
+		<HashRouter>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/sample/" element={<SampleLayout />}>
@@ -40,7 +40,7 @@ function App() {
 				</Route>
 				<Route path="/game/TicTacToe" element={<TicTacToe />} />
 			</Routes>
-		</Router>
+		</HashRouter>
 	);
 }
 
